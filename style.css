@@ -1,0 +1,86 @@
+
+body{
+    background-color: #333;
+    display: flex;
+  
+   
+    flex-direction: column;
+    margin-top: 100px;
+    width: 50px;
+    margin-left: 500px;
+
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/1.webp);
+    
+   
+}
+
+h2{
+    color: white;
+    font-family: oswald;
+    font-size: 10px;
+
+
+
+}
+.grid {
+ width: 300px;
+ height: 300px;
+ border: solid black 4px;
+ display: flex;
+ flex-wrap: wrap;
+ border-style: double;
+ background-color: #fffffb;
+
+ 
+}
+
+.grid div {
+ width: 20px;
+ height: 20px;
+}
+
+.invader {
+ background-color: purple;
+ border-radius: 10px;
+}
+
+.shooter {
+ background-color: green;
+}
+
+.laser {
+ background-color: orange;
+}
+
+.boom {
+ background-color: red;
+}
+
+h1{
+    font-family: oswald;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    color: blueviolet;
+    
+
+}
+
+#btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
